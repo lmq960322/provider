@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/memento_num"
+                android:layout_width="40dp"
+                style="@style/TextView"               
+                android:text="id号" />
+            <TextView
+                android:id="@+id/memento_subject"
+                android:layout_width="50dp"
+                style="@style/TextView" 
+                android:text="主题"
+                />
+            <TextView
+                android:id="@+id/memento_body"
+                android:layout_width="110dp"
+                android:text="内容"
+                style="内容" 
+                />
+
+            <TextView
+                android:id="@+id/memento_date"
+                android:layout_width="100dp"
+                style="@style/TextView" 
+                android:text="时间" 
+               />       
+</LinearLayout>
